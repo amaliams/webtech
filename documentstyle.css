@@ -1,0 +1,59 @@
+
+
+html, body{
+    
+    padding: 2px 2px 2px 30px;
+    height: 100%;
+    font-family: Garamond;
+    text-align: center;
+  }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+
+.tangerine{
+    font-family: 'Tangerine', serif;
+} 
+.flex{
+    display: flex;
+}
+.divider{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.frame{
+    fit: contain;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    border: solid 2px;
+    display: block;
+    margin-right: 20px;
+}
+
+.imagew{
+    width:100%;
+}
+.gallery{
+    margin-left: 42%;
+   
+}
+
+.text{
+	word-break: break-word;
+    text-align:justify;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
