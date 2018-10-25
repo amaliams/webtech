@@ -1,10 +1,18 @@
-*{
-    background-color: bisque;
+body{
+    background-color:grey;
+    margin-right: 20%;
+    margin-left: 20%;
+    align-content: center;
 
 }
 .about_text{
-    float: left;
+    float: right;
+    margin: 4px;
 }
 .about_img{
-    
+    float: left;
+    margin: 4px;
+}
+div{
+    margin: 10px;
 }
