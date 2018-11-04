@@ -33,6 +33,7 @@ h1{
 .about_text{
     float: right;
     margin: 4px;
+    margin-top: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkgrey;
 }
@@ -56,7 +57,7 @@ h3.paragraph-divider { width: auto; position: relative; text-align: center; colo
   transform:translateX(-1%);
   z-index:-1;
   background: gray; }
-h3.paragraph-divider:before {position:absolute;
+h3.paragraph-divider:before {position: absolute;
   content:'';
   height:2px;
   width:40%;
