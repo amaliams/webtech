@@ -32,9 +32,10 @@ h1{
 
 .about_text{
     float: right;
+    font-size: 18px;
     margin: 4px;
     margin-top: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana;
     color: darkgrey;
 }
 .about_img{
