@@ -3,22 +3,54 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/tours.css">
     </head>
-
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>    
-    <!-- Use any element to open the sidenav -->
-    <span onclick="openNav()"><img src="../image/tour/55003.svg" width="20px" height="30px" alt="open menu"></span>
   
-    <body>
+    <body> 
+        <div style='float:left; width:15%; height: 100%; '>
+                <div style='float:left; width:60%; '>
+                    <h2>Navbar</h2>    
+                    <a href="#GeneralInof"><h2>General Information</h2></a>
+                    <a href="#map"><h2>Tourmap</h2></a>
+                    <a href="#otherevents"><h2>Other Events</h2></a>
+                      
+                </div>
+                <div style='float:right; width:20%;'>
+                        <div class="vl"></div>
+                </div>
+        </div>
+        <div style='float:left; width:70%;'>
 
-        <header>
-            <img id="tours_mainpic" src="../image/tour/mainpic.jpg" width="200" height="150" alt="Image not available">
-        </header>
 
+            <header>
+                <img id="tours_mainpic" src="../image/tour/mainpic.jpg" width="200" height="150" alt="Image not available">
+            </header>
+
+            <section class="tour_text">
+                <h1>General Information</h1>
+                <div id="GeneralInfo" style='float:left; width:47%'>
+                    Flere ganger de siste årene har Fylkesmannen i Finnmark konkludert med at Karasjok kommune har brutt loven. 
+                    Fylkesmannen frykter også for rettssikkerheten til innbyggerne. Samtidig har millionene på budsjettet blitt brukt opp, 
+                    uten at noen egentlig helt har oversikten. Flere forsøk på brannslukking har ikke løst problemene.
+                </div>
+                
+                <div style='float:left; width:47%; margin-left:30px'>
+                    Angående sakene NRK har omtalt i denne saken, svarer Maurstad at kommunen følger opp det Fylkesmannen har påpekt. 
+                    Nå forsøker kommunen å ta ansvar for barnehagene etter at Fylkesmannen varslet lovbrudd. Det er blant annet innført tilsynsplan, 
+                    kompetanseplan og trivselsplan, ifølge oppvekstavdelingen i kommunen.
+                </div>
+                <div id="map" >
+                        <img src="../image/tour/tour_map.jpg" alt="img not found!">
+                    </div>
+        
+                    <div id="otherevents">
+                            <h1>AIDS Benefit</h1>
+                            The AIDS Benefit Concert was a charity concert held 26 September 1988 at the Boston Garden in Boston, Massachusetts. 
+                            All profits went to the AIDS Action Committee of Massachusetts. The show was headlined by Boston. Other performers 
+                            included Treat Her Right and Farrenheit. Approximately $300,000 was raised from the concert.[1]
+                            <img src="../image/tour/AIDS.jpg" alt="img not found!">
+        
+                    </div>
+            
+            </section> 
+        </div>
         <script src="../scripts/tours.js"></script>
     </body>
