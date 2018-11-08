@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <script src="../scripts/gallery.js" defer></script>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+<div class="logo__wrapper">
+    <a class="logo" href="#home">DRAGONMIST <br>
+        HELLFIRE</a>
+</div>
+
+<div class="header">
+    <div class="header-center">
+        <a class="tab" href="#about">About</a>
+        <a class="tab" href="#merch">Merch</a>
+        <a class="tab" href="#tour">Tour</a>
+        <a class="tab" href="#gallery">Gallery</a>
+        <a class="tab" href="#blog">Blog</a>
+    </div>
+</div>
+
+<h1 style="padding-left: 2rem;">Gallery</h1>
+<!-- Images used to open the lightbox -->
+<div class="preview-gallery">
+    <div class="row">
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/1firststop.png" onclick="openModal();currentSlide(1)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/2lollapalooza.jpg" onclick="openModal();currentSlide(2)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/3draconiantour.png" onclick="openModal();currentSlide(3)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/4roskilde.jpg" onclick="openModal();currentSlide(4)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+    </div>
+    <div class="row">
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/5pitchfork.jpg" onclick="openModal();currentSlide(5)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/6coachella.jpg" onclick="openModal();currentSlide(6)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/7firefly.jpg" onclick="openModal();currentSlide(7)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/8fuji.jpg" onclick="openModal();currentSlide(8)" class="hover"
+                 style="height: 100%; width: 100%">
+        </div>
+    </div>
+    <div class="button-gallery__wrapper">
+        <a class="button-gallery" onclick="openModal();currentSlide(1)" >View full gallery</a>
+    </div>
+</div>
+
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content" id="wrapper">
+
+        <!-- Caption text -->
+        <div class="caption-container">
+            <h3 id="caption" style="color: white">Draconian Tour 2018</h3>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/1firststop.png">
+            <div class="modal-sidebar">
+                <p class="numbertext">1 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>First tour stop</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/2lollapalooza.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">2 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Lollapalooza</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/3draconiantour.png">
+            <div class="modal-sidebar">
+                <p class="numbertext">3 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Draconian Tour</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/4roskilde.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">4 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Roskilde 2018</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/5pitchfork.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">5 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Pitchfork Music Festival</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/6coachella.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">6 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Coachella</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/7firefly.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">7 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Firefly Festival</p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img class="modal-image" src="../image/gallery/8fuji.jpg">
+            <div class="modal-sidebar">
+                <p class="numbertext">8 <span style="color: dimgray">/ 8</span></p>
+                <hr style="color: white; height: 1px;">
+                <p>Fuji Rock Festival</p>
+            </div>
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Thumbnail image controls -->
+        <!--
+        <div class="img-gallery">
+            <img class="demo" src="../image/gallery/slides/1firststop.png" onclick="currentSlide(1)"
+                 alt="Draconian Tour: First Stop">
+        </div>
+
+        <div class="img-gallery">
+            <img class="demo" src="../image/gallery/slides/2lollapalooza.jpg" onclick="currentSlide(2)"
+                 alt="Lollapalooza 2018">
+        </div>
+
+        <div class="img-gallery">
+            <img class="demo" src="../image/gallery/slides/3draconiantour.png" onclick="currentSlide(3)"
+                 alt="Draconian Tour Logo">
+        </div>
+
+        <div class="img-gallery">
+            <img class="demo" src="../image/gallery/slides/4roskilde.jpg" onclick="currentSlide(4)">
+        </div>
+        -->
+    </div>
+</div>
+
+</body>
+</html>
