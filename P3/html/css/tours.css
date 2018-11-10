@@ -12,8 +12,9 @@ body{
 }
 
 .tours_mainpic{
-    width: 100%;
-    height: 10%;
+
+    width: 2rem;    
+    height: 1rem;
 }
 .tour_text{
     color: darkgrey;
@@ -124,8 +125,8 @@ h1{
     display: block;
 }
 
-#popupImg1 {position: absolute; z-index: 50; left: 55%; top: 60%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 45%;}
-#popupImg2 {position: absolute; z-index: 50; left: 10%; top: 68%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 45%;}
-#popupImg3 {position: absolute; z-index: 50; left:  3%; top: 35%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 45%;}
-#popupImg4 {position: absolute; z-index: 50; left: 62%; top: 58%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 45%;}
-#popupImg5 {position: absolute; z-index: 50; left: 40%; top: 30%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 45%;}
+#popupImg1 {position: absolute; z-index: 50; left: 55%; top: 60%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 35%;}
+#popupImg2 {position: absolute; z-index: 50; left: 10%; top: 68%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 40%;}
+#popupImg3 {position: absolute; z-index: 50; left:  3%; top: 35%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 40%;}
+#popupImg4 {position: absolute; z-index: 50; left: 62%; top: 58%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 35%;}
+#popupImg5 {position: absolute; z-index: 50; left: 40%; top: 30%; color:black; font-weight: bold; background-color: white; border: black solid 2px; border-radius: 6px; width: 35%;}
