@@ -47,11 +47,11 @@ div{
 }
 
 
-h3.paragraph-divider { width: auto; position: relative; text-align: center; color: gray; margin-top: 10%; margin-bottom: 7%;}
+h3.paragraph-divider { position: relative; text-align: center; color: gray; margin-top: 10%; margin-bottom: 7%; font-size: 200%;}
     h3.paragraph-divider:after { position:absolute;
   content:'';
   height:2px;
-  width:40%;
+  width:35%;
   top:50%;
   transform:translateY(-30%);
   left:0;
@@ -61,7 +61,7 @@ h3.paragraph-divider { width: auto; position: relative; text-align: center; colo
 h3.paragraph-divider:before {position: absolute;
   content:'';
   height:2px;
-  width:40%;
+  width:35%;
   top:50%;
   transform:translateY(-40%);
   right:0;
