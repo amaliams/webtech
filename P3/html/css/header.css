@@ -1,0 +1,47 @@
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    color: white;
+    background-color: #1b1b1b;
+    padding: 20px 10px;
+    margin: 0;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    width: 20%;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+/* Float the link section to the right */
+.header-center {
+    display: block;
+    margin: auto;
+    width: 67%;
+}
+
+/* Change the background color on mouse-over */
+.header .tab:hover {
+    color: #d32f2f;
+}
+
+.logo__wrapper {
+    padding: 20px;
+    background-color: #1b1b1b;
+    text-align: center;
+    height: 5rem;
+}
+
+.logo {
+    width: 12rem;
+    height: auto;
+}
