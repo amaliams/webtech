@@ -113,7 +113,7 @@ footer {
 
 .footer-icon--image {
     padding: 2.5rem;
-    height: 150px;
+    height: 140px;
 }
 
 .contact {
@@ -1104,6 +1104,12 @@ h3.paragraph-divider span {
         width: 100%;
         border: none;
     }
+
+
+    .footer-icon--image {
+        padding: 2.5rem;
+        height: 130px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -1139,6 +1145,11 @@ h3.paragraph-divider span {
     .early_days {
         margin: auto;
         width: 100%;
+    }
+
+    .footer-icon--image {
+        padding: 2.5rem;
+        height: 120px;
     }
 }
 
