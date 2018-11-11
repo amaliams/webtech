@@ -108,10 +108,29 @@ body{
 }
 
 .tickets-content{
+    background-color: #424242;
+    border: 0;
     height: 13.3rem;
     width: 33%;
     float: left;
     text-align: center;
+}
+.tickets-content-button {
+    position: relative;
+    vertical-align: middle;
+    color: white;
+    background-color: #950000;
+    width: 50%;
+    height: 45px;
+    top: 41%;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 2px white;
+    font-size: 26px;
+}
+
+.tickets-content-button:hover {
+    background-color: rgb(255, 60, 60);
 }
 .tickets-content > h1{
     font-size: 42px;
@@ -122,8 +141,9 @@ body{
     margin-top:-1.5rem;
 }
 .tickets-content > b{
-    color: white;
+    color: #424242;
 }
+/*
 .tickets-content > h2{
     color: white;
     background-color: #950000;
@@ -131,9 +151,9 @@ body{
     height: 10%;
     text-transform: uppercase;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 0%;
     padding: 4% 0rem 5% 0rem;
-}
+}*/
  .shop hr{
     border: solid #c5c5c5 1px;
     width: 100%;
