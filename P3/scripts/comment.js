@@ -27,7 +27,7 @@ function postComment(e){
     div.className = 'blog-post-comment-single';
     div.innerHTML = `<h4 class="blog-post-comment-info">Guest</h4>
                     <p class="blog-post-comment-text">` + input + `</p>
-                    <div class="blog__post__comment__properties">
+                    <div class="blog-post-comment-properties">
                         <div class='comment-like-counter'>0</div>
                         <svg class="heart" viewBox="0 0 32 29.6">
                             <path class='heartShape clickable' onclick="cannotClick()" d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
