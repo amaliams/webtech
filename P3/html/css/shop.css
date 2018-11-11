@@ -14,7 +14,7 @@ body{
 }
 
 .shop-frame{
-    fit: contain;
+    object-fit: contain;
     overflow: hidden;
     position: relative;
 }
