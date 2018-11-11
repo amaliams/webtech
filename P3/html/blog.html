@@ -1,365 +1,465 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="../scripts/like.js" defer></script>
+    <script src="../scripts/comment.js" defer></script>
     <title>Blog - Hellmist Dragonfire</title>
 
 </head>
 
 <body>
-    <div id="blog-parent">
-        <div id="blog-red-line">
-        </div>
-        <div id="blog-wrapper">
-            <div>
-                <h1 class="blog-newest-post">This is the newest post</h1>
-            </div>
-            <div id="blog-post-1" class="blog-posts">
-                <h3 class="blog-post-title">We won a free cheeseburger!!!!</h3>
-                <hr class="blog-post-title-line">
-                <h5 class="blog-post-info">By Gamer123 - 15/8/2018 12:34</h5>
-                <h4 class="blog-post-highlight">"It's the best burger we have ever had!"</h4>
-                <p class="blog-post-text">Yesterday we went to McDonald's to get some cheese burger, but they say they are out of stock!!! WTF, how can a McDonald's not have cheese burger, it's their most iconic burger ever... We were really dissapointed and was ready to go home empty stomach, it was then the cashier suggested us to try their chicken burger. I initially thought this was stupid. How can a chicken burger replace a cheese burger and I really hated chicken. I was like, alright let's try it and then we can spit it right out to tell them how wrong they were, so we bought 4 chicken burgers, one for each of us. The moment we took our first bite we realize how wrong we were. It was the best burger we have ever tasted!! We have decided. Our next album will be Hellfire Burger!!!! Hell yeah!</p>
-                <img class="blog-post-images" src="../image/blog/cheeseburger.jpg">
-                <div id="blog-post-1-like" class="blog-likes">
-                    <input type="button" id="like-1" class="likes" value="Like">
-                    <p id="like-1-counter" class="like-counter"></p>
-                    <p id="comment-1-counter" class="comment-counter"></p>
-                </div>
-                <div id="blog-post-1-reply" class="blog-replies">
-                    <div class="blog-post-comment">
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ashketchum123</h4>
-                            <p class="blog-post-comment-text">Gotta catch them all the burgers!</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>18</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">GaryTheGreat</h4>
-                            <p class="blog-post-comment-text">You are delusional, cheese burger is obviously better</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>238</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>6</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" method="post">
-                        <div>
-                            <textarea name="blog-post-textarea" id="blog-post-commentbox-1" class="blog-post-commentbox" rows="8" cols="70"></textarea>
-                            <input type="button" class="blog-post-comment-submit" value="Post">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="blog-post-2" class="blog-posts">
-                <h3 class="blog-post-title">Cameos in Game of Thrones</h3>
-                <hr class="blog-post-title-line">
-                <h5 class="blog-post-info">By blogmonster - 2/6/2018 10:22</h5>
-                <h4 class="blog-post-highlight">"They should've given me the role of Daenerys"</h4>
-                <p class="blog-post-text">Yesterday, Game of Thrones season 9 episode 4 was dropped, which is why I can finally talk about it here. About a year ago, some Game of Thrones recruites contacted me and asked if I can play in Game of Thrones, then I asked them what role will I be playing? They said it is going to be a huge role, so I automatically assumed that it meant I will take over the role of the main character, Daenerys Targaryen. But when I arrived at the scene, I was told that I will only be a subtitute for an existing character. I thuoght that was already insulting enough, but then they told me that I won't be subtituting Daenerys, instead it's going to be Brienne of Tarth. WTF, how do I look like Brienne of Tarth, so I went and talked to the producer. It was then I realize that I might lose the job entirely, so I accepted the job.</p>
-                <img class="blog-post-images" src="../image/blog/Brienne-of-Tarth.jpg">
-                <div id="blog-post-2-like" class="blog-likes">
-                    <input type="button" id="like-2" class="likes" value="Like">
-                    <p id="like-2-counter" class="like-counter"></p>
-                    <p id="comment-2-counter" class="comment-counter"></p>
-                </div>
-                <div id="blog-post-2-reply" class="blog-replies">
-                    <div class="blog-post-comment">
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">leensfraye04</h4>
-                            <p class="blog-post-comment-text">Honestly, You are better suited for Samwell Tarly.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>6</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">Famouskiller</h4>
-                            <p class="blog-post-comment-text">Com'on you should turn down the job.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>25</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" method="post">
-                        <div>
-                            <textarea name="blog-post-textarea" id="blog-post-commentbox-2" class="blog-post-commentbox" rows="8" cols="70"></textarea>
-                            <input type="button" class="blog-post-comment-submit" value="Post">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="blog-post-3" class="blog-posts">
-                <h3 class="blog-post-title">Thank you all for your support</h3>
-                <hr class="blog-post-title-line">
-                <h5 class="blog-post-info">By jesusdirewolf - 24/4/2018 21:02</h5>
-                <h4 class="blog-post-highlight">"More than 1 million albums sold worldwide."</h4>
-                <p class="blog-post-text">We want reiterate our gratitude towards all of our fans and the people who supported us all these years. We have just reach a new milestone with over 1 million albums sold worldwide. We will never have made it this far without your support. And we will continue to bring new great music to you all.</p>
-                <img class="blog-post-images" src="../image/blog/Thank-You.jpg">
-                <div id="blog-post-3-like" class="blog-likes">
-                    <input type="button" id="like-3" class="likes" value="Like">
-                    <p id="like-3-counter" class="like-counter"></p>
-                    <p id="comment-3-counter" class="comment-counter"></p>
-                </div>
-                <div id="blog-post-3-reply" class="blog-replies">
-                    <div class="blog-post-comment">
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">DennisSmith</h4>
-                            <p class="blog-post-comment-text">We need to thank you for giving us all these great musics. They helped me on my journey through college, even now, I still listen to your music everyday.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>204</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>7</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>3</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>2</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">trollking10</h4>
-                            <p class="blog-post-comment-text">Who is this ninjaqueeen, plz kick him out already...</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>158</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" method="post">
-                        <div>
-                            <textarea name="blog-post-textarea" id="blog-post-commentbox-3" class="blog-post-commentbox" rows="8" cols="70"></textarea>
-                            <input type="button" class="blog-post-comment-submit" value="Post">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="blog-post-4" class="blog-posts">
-                <h3 class="blog-post-title">An exceptional night at Tokyo</h3>
-                <hr class="blog-post-title-line">
-                <h5 class="blog-post-info">By administrator - 28/3/2018 16:39</h5>
-                <h4 class="blog-post-highlight">I can still feel the excitement from yesterday.</h4>
-                <p class="blog-post-text">We just came back from Tokyo, but I can still feel the excitement from yesterday. It was a crazy night! Our security guard almost couldn't control because of the excitement. Especially the firework are the end, took us a whole month of planning and preparation. I wish I could still perform for you all, too bad my schedule won't allow me to do so, I have to prepare for the next tour which is coming soon(remember to buy tickets early XP). Anyhow, thank you all who were there to support us and we are looking forward to meeting you next time.</p>
-                <img class="blog-post-images" src="../image/blog/stage-firework.jpg">
-                <div id="blog-post-4-like" class="blog-likes">
-                    <input type="button" id="like-4" class="likes" value="Like">
-                    <p id="like-4-counter" class="like-counter"></p>
-                    <p id="comment-4-counter" class="comment-counter"></p>
-                </div>
-                <div id="blog-post-4-reply" class="blog-replies">
-                    <div class="blog-post-comment">
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">AlexanderTheLaid</h4>
-                            <p class="blog-post-comment-text">Damn, I wasn't able to purchase the tickets, because it was sold out in 2 seconds. Wish I could be there.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>239</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">EmperorTrump</h4>
-                            <p class="blog-post-comment-text">Make Hellmist Dragonfire great again!</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>588</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">janibsen1994</h4>
-                            <p class="blog-post-comment-text">PLZ do a tour in France, fans in france need some love too...</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>720</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" method="post">
-                        <div>
-                            <textarea name="blog-post-textarea" id="blog-post-commentbox-4" class="blog-post-commentbox" rows="8" cols="70"></textarea>
-                            <input type="button" class="blog-post-comment-submit" value="Post">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div id="blog-post-5" class="blog-posts">
-                <h3 class="blog-post-title">New website!</h3>
-                <hr class="blog-post-title-line">
-                <h5 class="blog-post-info">By administrator - 16/1/2018 18:51</h5>
-                <h4 class="blog-post-highlight">"They are the best web developer we have ever seen"</h4>
-                <p class="blog-post-text">After all these years going without a proper professional website, we have finally made it. The new website is here!!! First, we want to thank the amazing team behind the creation of the website. They are the best web developer we have ever seen, capable with extraordinary knowledge and intelligence. They used their exceptionally high dilligence and patience to walk us throught the whole process and accepted all of our demand for the webpage elegantly. They are the web technology team from NTNU, thank you for you hardwork.<br>Second, we have previously announced that we will start selling T-shirt with our beloved logo, it is finally available in a new website. In shop you can find the new T-shirt, there is a limited amount so be quick.<br> Lastly, if you love what we are doing please share this with everyone so that they are aware. Thank You.</p>
-                <img class="blog-post-images" src="../image/blog/new-page.jpg">
-                <div id="blog-post-5-like" class="blog-likes">
-                    <input type="button" id="like-5" class="likes" value="Like">
-                    <p id="like-5-counter" class="like-counter"></p>
-                    <p id="comment-5-counter" class="comment-counter"></p>
-                </div>
-                <div id="blog-post-5-reply" class="blog-replies">
-                    <div class="blog-post-comment">
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">Johaness234</h4>
-                            <p class="blog-post-comment-text">Nice, the website is intuitive and easy to use, definitely a like :)</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>124</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">LoremTony</h4>
-                            <p class="blog-post-comment-text">Thank you, I will now buy tickets for the next tour in this website.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>251</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">SherlockHolmesXXX</h4>
-                            <p class="blog-post-comment-text">What is the price of the new T-shirt if I buy one hundred of it?</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>67</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">lazyguy34</h4>
-                            <p class="blog-post-comment-text">What a surprise, couldn't ask for more.</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>58</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>17</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>9</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>5</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">ninjaqueeen</h4>
-                            <p class="blog-post-comment-text">LOL</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>6</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="blog-post-comment-single">
-                            <h4 class="blog-post-comment-info">RingsOfTheLord</h4>
-                            <p class="blog-post-comment-text">Jesus christ, ninjaqueeen, stop wasting space!</p>
-                            <div class="blog-post-comment-properties">
-                                <div class='comment-like-counter'>134</div>
-                                <svg class="heart" viewBox="0 0 32 29.6">
-                                    <path class='heartShape clickable' d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                    <form action="" method="post">
-                        <div>
-                            <textarea name="blog-post-textarea" id="blog-post-commentbox-5" class="blog-post-commentbox" rows="8" cols="70"></textarea>
-                            <input type="button" class="blog-post-comment-submit" value="Post">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div>
-                <h1 class="blog-oldest-post">You have reached the oldest post available</h1>
-            </div>
+<header>
+    <div class="logo">
+        <a class="logo--wrapper" href="main.html"><img class="logo--wrapper" src="../image/header/Logo.png"></a>
+    </div>
+    <div class="header">
+        <div class="header--center">
+            <a class="header__tab" href="about.html">About</a>
+            <a class="header__tab" href="shop.html">Shop</a>
+            <a class="header__tab" href="tours.html">Tour</a>
+            <a class="header__tab" href="blog.html">Blog</a>
+            <a class="header__tab" href="gallery.html">Gallery</a>
         </div>
     </div>
-    <script src="../scripts/like.js"></script>
-    <script src="../scripts/comment.js"></script>
+</header>
 
+<div id="blog-parent">
+    <div id="blog-red-line">
+    </div>
+    <div id="blog-wrapper">
+        <div>
+            <h1 class="blog-newest-post">This is the newest post</h1>
+        </div>
+        <div id="blog-post-1" class="blog-posts">
+            <h3 class="blog-post-title">We won a free cheeseburger!!!!</h3>
+            <hr class="blog-post-title-line">
+            <h5 class="blog-post-info">By Gamer123 - 15/8/2018 12:34</h5>
+            <h4 class="blog-post-highlight">"It's the best burger we have ever had!"</h4>
+            <p class="blog-post-text">Yesterday we went to McDonald's to get some cheese burger, but they say they are
+                out of stock!!! WTF, how can a McDonald's not have cheese burger, it's their most iconic burger ever...
+                We were really dissapointed and was ready to go home empty stomach, it was then the cashier suggested us
+                to try their chicken burger. I initially thought this was stupid. How can a chicken burger replace a
+                cheese burger and I really hated chicken. I was like, alright let's try it and then we can spit it right
+                out to tell them how wrong they were, so we bought 4 chicken burgers, one for each of us. The moment we
+                took our first bite we realize how wrong we were. It was the best burger we have ever tasted!! We have
+                decided. Our next album will be Hellfire Burger!!!! Hell yeah!</p>
+            <img class="blog-post-images" src="../image/blog/cheeseburger.jpg">
+            <div id="blog-post-1-like" class="blog-likes">
+                <input type="button" id="like-1" class="likes" value="Like">
+                <p id="like-1-counter" class="like-counter"></p>
+                <p id="comment-1-counter" class="comment-counter"></p>
+            </div>
+            <div id="blog-post-1-reply" class="blog-replies">
+                <div class="blog-post-comment">
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ashketchum123</h4>
+                        <p class="blog-post-comment-text">Gotta catch them all the burgers!</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>18</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">GaryTheGreat</h4>
+                        <p class="blog-post-comment-text">You are delusional, cheese burger is obviously better</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>238</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>6</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <textarea name="blog-post-textarea" id="blog-post-commentbox-1" class="blog-post-commentbox"
+                                  rows="8" cols="70"></textarea>
+                        <input type="button" class="blog-post-comment-submit" value="Post">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="blog-post-2" class="blog-posts">
+            <h3 class="blog-post-title">Cameos in Game of Thrones</h3>
+            <hr class="blog-post-title-line">
+            <h5 class="blog-post-info">By blogmonster - 2/6/2018 10:22</h5>
+            <h4 class="blog-post-highlight">"They should've given me the role of Daenerys"</h4>
+            <p class="blog-post-text">Yesterday, Game of Thrones season 9 episode 4 was dropped, which is why I can
+                finally talk about it here. About a year ago, some Game of Thrones recruites contacted me and asked if I
+                can play in Game of Thrones, then I asked them what role will I be playing? They said it is going to be
+                a huge role, so I automatically assumed that it meant I will take over the role of the main character,
+                Daenerys Targaryen. But when I arrived at the scene, I was told that I will only be a subtitute for an
+                existing character. I thuoght that was already insulting enough, but then they told me that I won't be
+                subtituting Daenerys, instead it's going to be Brienne of Tarth. WTF, how do I look like Brienne of
+                Tarth, so I went and talked to the producer. It was then I realize that I might lose the job entirely,
+                so I accepted the job.</p>
+            <img class="blog-post-images" src="../image/blog/Brienne-of-Tarth.jpg">
+            <div id="blog-post-2-like" class="blog-likes">
+                <input type="button" id="like-2" class="likes" value="Like">
+                <p id="like-2-counter" class="like-counter"></p>
+                <p id="comment-2-counter" class="comment-counter"></p>
+            </div>
+            <div id="blog-post-2-reply" class="blog-replies">
+                <div class="blog-post-comment">
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">leensfraye04</h4>
+                        <p class="blog-post-comment-text">Honestly, You are better suited for Samwell Tarly.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>6</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">Famouskiller</h4>
+                        <p class="blog-post-comment-text">Com'on you should turn down the job.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>25</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <textarea name="blog-post-textarea" id="blog-post-commentbox-2" class="blog-post-commentbox"
+                                  rows="8" cols="70"></textarea>
+                        <input type="button" class="blog-post-comment-submit" value="Post">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="blog-post-3" class="blog-posts">
+            <h3 class="blog-post-title">Thank you all for your support</h3>
+            <hr class="blog-post-title-line">
+            <h5 class="blog-post-info">By jesusdirewolf - 24/4/2018 21:02</h5>
+            <h4 class="blog-post-highlight">"More than 1 million albums sold worldwide."</h4>
+            <p class="blog-post-text">We want reiterate our gratitude towards all of our fans and the people who
+                supported us all these years. We have just reach a new milestone with over 1 million albums sold
+                worldwide. We will never have made it this far without your support. And we will continue to bring new
+                great music to you all.</p>
+            <img class="blog-post-images" src="../image/blog/Thank-You.jpg">
+            <div id="blog-post-3-like" class="blog-likes">
+                <input type="button" id="like-3" class="likes" value="Like">
+                <p id="like-3-counter" class="like-counter"></p>
+                <p id="comment-3-counter" class="comment-counter"></p>
+            </div>
+            <div id="blog-post-3-reply" class="blog-replies">
+                <div class="blog-post-comment">
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">DennisSmith</h4>
+                        <p class="blog-post-comment-text">We need to thank you for giving us all these great musics.
+                            They helped me on my journey through college, even now, I still listen to your music
+                            everyday.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>204</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>7</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>3</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>2</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">trollking10</h4>
+                        <p class="blog-post-comment-text">Who is this ninjaqueeen, plz kick him out already...</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>158</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <textarea name="blog-post-textarea" id="blog-post-commentbox-3" class="blog-post-commentbox"
+                                  rows="8" cols="70"></textarea>
+                        <input type="button" class="blog-post-comment-submit" value="Post">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="blog-post-4" class="blog-posts">
+            <h3 class="blog-post-title">An exceptional night at Tokyo</h3>
+            <hr class="blog-post-title-line">
+            <h5 class="blog-post-info">By administrator - 28/3/2018 16:39</h5>
+            <h4 class="blog-post-highlight">I can still feel the excitement from yesterday.</h4>
+            <p class="blog-post-text">We just came back from Tokyo, but I can still feel the excitement from yesterday.
+                It was a crazy night! Our security guard almost couldn't control because of the excitement. Especially
+                the firework are the end, took us a whole month of planning and preparation. I wish I could still
+                perform for you all, too bad my schedule won't allow me to do so, I have to prepare for the next tour
+                which is coming soon(remember to buy tickets early XP). Anyhow, thank you all who were there to support
+                us and we are looking forward to meeting you next time.</p>
+            <img class="blog-post-images" src="../image/blog/stage-firework.jpg">
+            <div id="blog-post-4-like" class="blog-likes">
+                <input type="button" id="like-4" class="likes" value="Like">
+                <p id="like-4-counter" class="like-counter"></p>
+                <p id="comment-4-counter" class="comment-counter"></p>
+            </div>
+            <div id="blog-post-4-reply" class="blog-replies">
+                <div class="blog-post-comment">
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">AlexanderTheLaid</h4>
+                        <p class="blog-post-comment-text">Damn, I wasn't able to purchase the tickets, because it was
+                            sold out in 2 seconds. Wish I could be there.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>239</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">EmperorTrump</h4>
+                        <p class="blog-post-comment-text">Make Hellmist Dragonfire great again!</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>588</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">janibsen1994</h4>
+                        <p class="blog-post-comment-text">PLZ do a tour in France, fans in france need some love
+                            too...</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>720</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <textarea name="blog-post-textarea" id="blog-post-commentbox-4" class="blog-post-commentbox"
+                                  rows="8" cols="70"></textarea>
+                        <input type="button" class="blog-post-comment-submit" value="Post">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="blog-post-5" class="blog-posts">
+            <h3 class="blog-post-title">New website!</h3>
+            <hr class="blog-post-title-line">
+            <h5 class="blog-post-info">By administrator - 16/1/2018 18:51</h5>
+            <h4 class="blog-post-highlight">"They are the best web developer we have ever seen"</h4>
+            <p class="blog-post-text">After all these years going without a proper professional website, we have finally
+                made it. The new website is here!!! First, we want to thank the amazing team behind the creation of the
+                website. They are the best web developer we have ever seen, capable with extraordinary knowledge and
+                intelligence. They used their exceptionally high dilligence and patience to walk us throught the whole
+                process and accepted all of our demand for the webpage elegantly. They are the web technology team from
+                NTNU, thank you for you hardwork.<br>Second, we have previously announced that we will start selling
+                T-shirt with our beloved logo, it is finally available in a new website. In shop you can find the new
+                T-shirt, there is a limited amount so be quick.<br> Lastly, if you love what we are doing please share
+                this with everyone so that they are aware. Thank You.</p>
+            <img class="blog-post-images" src="../image/blog/new-page.jpg">
+            <div id="blog-post-5-like" class="blog-likes">
+                <input type="button" id="like-5" class="likes" value="Like">
+                <p id="like-5-counter" class="like-counter"></p>
+                <p id="comment-5-counter" class="comment-counter"></p>
+            </div>
+            <div id="blog-post-5-reply" class="blog-replies">
+                <div class="blog-post-comment">
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">Johaness234</h4>
+                        <p class="blog-post-comment-text">Nice, the website is intuitive and easy to use, definitely a
+                            like :)</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>124</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">LoremTony</h4>
+                        <p class="blog-post-comment-text">Thank you, I will now buy tickets for the next tour in this
+                            website.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>251</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">SherlockHolmesXXX</h4>
+                        <p class="blog-post-comment-text">What is the price of the new T-shirt if I buy one hundred of
+                            it?</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>67</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">lazyguy34</h4>
+                        <p class="blog-post-comment-text">What a surprise, couldn't ask for more.</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>58</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>17</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>9</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>5</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">ninjaqueeen</h4>
+                        <p class="blog-post-comment-text">LOL</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>6</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-post-comment-single">
+                        <h4 class="blog-post-comment-info">RingsOfTheLord</h4>
+                        <p class="blog-post-comment-text">Jesus christ, ninjaqueeen, stop wasting space!</p>
+                        <div class="blog-post-comment-properties">
+                            <div class='comment-like-counter'>134</div>
+                            <svg class="heart" viewBox="0 0 32 29.6">
+                                <path class='heartShape clickable'
+                                      d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <div>
+                        <textarea name="blog-post-textarea" id="blog-post-commentbox-5" class="blog-post-commentbox"
+                                  rows="8" cols="70"></textarea>
+                        <input type="button" class="blog-post-comment-submit" value="Post">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div>
+            <h1 class="blog-oldest-post">You have reached the oldest post available</h1>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>
+        <div class="footer-icon">
+            <a href="#"><img class="footer-icon--image" alt="image not found"
+                             src="../image/footer/footer_ico_facebook_785220.png"></a>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><img class="footer-icon--image" alt="image not found"
+                             src="../image/footer/footer_ico_twitter_852783.png"></a>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><img class="footer-icon--image" alt="image not found"
+                             src="../image/footer/footer_ico_instagram_852803.png"></a>
+        </div>
+    </div>
+    <p class="contact">
+        Contact:<br>
+        <a style="text-decoration: none; color: var(--red);"
+           href="mailto:agent@dragonmist.com">agent@dragonmist.com</a>
+    </p>
+</footer>
 </body>
 
 </html>
