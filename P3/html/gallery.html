@@ -71,6 +71,30 @@
     </div>
 </div>
 
+<div class="preview-gallery-phone">
+    <div class="row">
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/1firststop.png" onclick="openModal();currentSlide(1)"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/2lollapalooza.jpg" onclick="openModal();currentSlide(2)"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/3draconiantour.png" onclick="openModal();currentSlide(3)"
+                 style="height: 100%; width: 100%">
+        </div>
+        <div class="img-gallery">
+            <img src="../image/gallery/preview/4roskilde.jpg" onclick="openModal();currentSlide(4)"
+                 style="height: 100%; width: 100%">
+        </div>
+    </div>
+    <div class="button-gallery-phone__wrapper">
+        <a class="button-gallery" onclick="openModal();currentSlide(1)">View full gallery</a>
+    </div>
+</div>
+
 
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
@@ -157,40 +181,28 @@
         <!-- Next/previous controls -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Thumbnail image controls -->
-        <!--
-        <div class="img-gallery">
-            <img class="demo" src="../image/gallery/slides/1firststop.png" onclick="currentSlide(1)"
-                 alt="Draconian Tour: First Stop">
-        </div>
-
-        <div class="img-gallery">
-            <img class="demo" src="../image/gallery/slides/2lollapalooza.jpg" onclick="currentSlide(2)"
-                 alt="Lollapalooza 2018">
-        </div>
-
-        <div class="img-gallery">
-            <img class="demo" src="../image/gallery/slides/3draconiantour.png" onclick="currentSlide(3)"
-                 alt="Draconian Tour Logo">
-        </div>
-
-        <div class="img-gallery">
-            <img class="demo" src="../image/gallery/slides/4roskilde.jpg" onclick="currentSlide(4)">
-        </div>
-        -->
     </div>
 </div>
 
 <footer>
     <div>
-        <a href="#" class="footer-social-media"><img class="footer-icon" src="../image/footer/footer_ico_facebook_785220.png"></a>
-        <a href="#" class="footer-social-media"><img class="footer-icon" src="../image/footer/footer_ico_twitter_852783.png"></a>
-        <a href="#" class="footer-social-media"><img class="footer-icon" src="../image/footer/footer_ico_instagram_852803.png"></a>
+        <div class="footer-icon-wrapper">
+            <a href="#"><img class="footer-icon"
+                             src="../image/footer/footer_ico_facebook_785220.png"></a>
+        </div>
+        <div class="footer-icon-wrapper">
+            <a href="#"><img class="footer-icon"
+                             src="../image/footer/footer_ico_twitter_852783.png"></a>
+        </div>
+        <div class="footer-icon-wrapper">
+            <a href="#"><img class="footer-icon"
+                             src="../image/footer/footer_ico_instagram_852803.png"></a>
+        </div>
     </div>
     <p class="contact" style="color: black">
-        Contact: <a style="text-decoration: none; color: #ab000d;"
-                    href="mailto:agent@dragonmist.com">agent@dragonmist.com</a>
+        Contact:<br>
+        <a style="text-decoration: none; color: #ab000d;"
+           href="mailto:agent@dragonmist.com">agent@dragonmist.com</a>
     </p>
 </footer>
 
